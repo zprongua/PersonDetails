@@ -12,7 +12,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    // why is this called a GETTER??
+    // why is this called a GETTER?? Cause it gets things
     public String getFirstName() {
         return firstName;
     }
@@ -21,7 +21,7 @@ public class Person {
         return lastName;
     }
 
-    @Override // why is Override here??
+    @Override // why is Override here?? because you used a protected term
     public String toString() {
         return new StringBuilder()
                 .append("\nMy first name is " + firstName)
